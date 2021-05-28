@@ -145,8 +145,8 @@ class FindTheDifference:
 
         # Heading Image
         self.placeholder1 = ttk.Label(self.window)
-        self.text1619677864537_png = t.PhotoImage(file='text-1619677864537.png')
-        self.placeholder1.configure(image=self.text1619677864537_png)
+        self.text_png = t.PhotoImage(file='text.png')
+        self.placeholder1.configure(image=self.text_png)
         self.placeholder1.grid(column='1', row='0')
 
         # padding
